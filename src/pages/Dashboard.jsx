@@ -31,7 +31,7 @@ const Dashboard = () => {
     }
     return (
         <>
-            <Box width={"20%"}>
+            <Box width={"20%"} mt={"40px"} ml={"40px"}>
                 <InputGroup>
                     <Input placeholder="Search..." onChange={(e) => handleSearch(e)} value={currency} width={"100%"} textAlign={"center"} />
                     <InputRightElement>
