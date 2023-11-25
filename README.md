@@ -8,7 +8,7 @@
      
 ## Featues
  - if you enter wrong country then you get text invalid Country Currency
- - Loader effect add
+ - Loader effect added
  - initially Text in Application shows No Country Data avaliable
 
 
