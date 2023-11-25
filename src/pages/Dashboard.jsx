@@ -44,14 +44,17 @@ const Dashboard = () => {
                 </InputGroup>
             </Box>
 
-            <Card mt={"20px"} boxShadow={"none"} display={"grid"} gridTemplateColumns={"repeat(3,1fr)"} gap={"10px"}>
+            <Card mt={"20px"} boxShadow={"none"} display={"grid"} gridTemplateColumns={"repeat(3,1fr)"}  gap={"10px"} textAlign={"center"}>
                 {
-                    data.length > 0 ? data.map((country, index) => <CardBody key={index} boxShadow={"rgba(0, 0, 0, 0.16) 0px 1px 4px;"} >
+                    data.length > 0 ? data.map((country, index) => <CardBody key={index} alignItems={"center"} _hover={{boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"}} 
+                     boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px" 
+                     >
                         <Image
+                       height={"150px"}
                             src={country.flags.png}
                             alt='Green double couch with wooden legs'
                             borderRadius='lg'
-                            ml={"20px"}
+                            ml={"80px"}
                         />
                         <Stack mt='6' spacing='3'>
                             <Heading size='md'>Name: {country.name.common}</Heading>

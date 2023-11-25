@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import './App.css'
 import Dashboard from './pages/Dashboard'
+import { Box } from '@chakra-ui/react';
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
 
         </>
 
-      ) : <Dashboard />
+      ) : <Box p={"20px"}><Dashboard /></Box> 
       }
 
 

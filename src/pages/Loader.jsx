@@ -3,7 +3,7 @@ import React from 'react'
 import { Spinner } from '@chakra-ui/react'
 const Loader = () => {
   return (
-    <Box w={"90%"} height={"80vh"}  position={"absolute"} top={"40vh"}>
+    <Box w={"90%"} height={"80vh"}  position={"absolute"} top={"40vh"} left={"50%"}>
       <Spinner
     
   thickness='4px'
